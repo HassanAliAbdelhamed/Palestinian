@@ -125,9 +125,19 @@ h1, h2, h3, h4, h5, h6 {
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
-
 .site-section {
-  padding: 4.5em 0; }
+    padding: 4.5em 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+.site-section .row {
+  margin: 0;
+  flex-direction: row-reverse;
+}
+  
   @media (min-width: 768px) {
     .site-section {
       padding: 7em 0; } }
