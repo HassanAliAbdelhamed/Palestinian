@@ -964,9 +964,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   width: 0px;
   left: 100px;
-  animation: beamAnimation .3s ;
-  animation-iteration-count: 2;
-  animation-timeline: 2s;
+  animation: beamAnimation 5s ;
+  animation-iteration-count: infinite;
 }
 
 
@@ -974,7 +973,19 @@ h1, h2, h3, h4, h5, h6 {
     0% {
       height: 0; /* Initial width */
     }
-    100% {
+    2% {
+      height: 100vw; /* Final width (full screen width) */
+    }
+    4%{
+      height: 0; /* Initial width */
+    }
+    6% {
+      height: 100vw; /* Final width (full screen width) */
+    }
+    7%{
+      height: 100vw; /* Final width (full screen width) */
+    }
+    100%{
       height: 100vw; /* Final width (full screen width) */
     }
   
