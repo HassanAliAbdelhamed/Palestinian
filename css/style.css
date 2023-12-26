@@ -963,7 +963,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   width: 0px;
   left: 100px;
-  animation: beamAnimation 5s ;
+  animation: beamAnimation 2.3s ;
   animation-iteration-count: infinite;
 }
 
