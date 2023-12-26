@@ -953,7 +953,6 @@ h1, h2, h3, h4, h5, h6 {
       background: #ccc; }
     .slide-one-item .owl-dots .owl-dot.active > span {
       background: #149954 ; }
-/* Basic styles for the lamp */
 
 /* إنشاء شعاع الضوء */
 .lightBeam {
@@ -974,19 +973,19 @@ h1, h2, h3, h4, h5, h6 {
       height: 0; /* Initial width */
     }
     2% {
-      height: 100vw; /* Final width (full screen width) */
+      height: 100vh; /* Final width (full screen width) */
     }
     4%{
       height: 0; /* Initial width */
     }
     6% {
-      height: 100vw; /* Final width (full screen width) */
+      height: 100vh; /* Final width (full screen width) */
     }
     7%{
-      height: 100vw; /* Final width (full screen width) */
+      height: 100vh; /* Final width (full screen width) */
     }
     100%{
-      height: 100vw; /* Final width (full screen width) */
+      height: 100vh; /* Final width (full screen width) */
     }
   
 }
