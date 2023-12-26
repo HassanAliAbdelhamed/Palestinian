@@ -953,3 +953,29 @@ h1, h2, h3, h4, h5, h6 {
       background: #ccc; }
     .slide-one-item .owl-dots .owl-dot.active > span {
       background: #149954 ; }
+/* Basic styles for the lamp */
+
+/* إنشاء شعاع الضوء */
+.lightBeam {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 74px 20px rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 0px;
+  left: 100px;
+  animation: beamAnimation .3s ;
+  animation-iteration-count: 2;
+  animation-timeline: 2s;
+}
+
+
+@keyframes beamAnimation {
+    0% {
+      height: 0; /* Initial width */
+    }
+    100% {
+      height: 100vw; /* Final width (full screen width) */
+    }
+  
+}
